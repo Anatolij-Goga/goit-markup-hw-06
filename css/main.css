@@ -667,19 +667,18 @@ address {
   width: 200px;
   height: 50px;
   align-items: center;
+  font-weight: 700;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
   color: var(--light-white-color);
   background-color: var(--accent-bg-color);
 }
 
-.column-3 .button::after {
-  content: '';
+.column-3 .button-svg {
   width: 24px;
   height: 24px;
-  background-image: url(../images/icon-send.svg);
-  background-color: transparent;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
+
 /* Modal Window */
 
 .backdrop {

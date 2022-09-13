@@ -756,6 +756,12 @@ address {
   fill: var(--accent-color);
 }
 
+.modal-form {
+  width: 528px;
+}
+.label {
+  display: block;
+}
 /* Portfolio */
 
 .portfolio-container .filter {

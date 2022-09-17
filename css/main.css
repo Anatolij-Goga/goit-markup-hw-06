@@ -785,8 +785,10 @@ address {
 }
 
 .register-form-field {
-  position: relative;
   display: block;
+}
+
+.register-form-field:not(:last-child) {
   margin-bottom: 10px;
 }
 
@@ -798,6 +800,10 @@ address {
   letter-spacing: 0.01em;
 
   color: var(--secondary-txt-color);
+}
+
+.register-form-block {
+  position: relative;
 }
 
 .register-form-input {
@@ -819,8 +825,10 @@ address {
 
 .register-form-icon {
   position: absolute;
+  top: 50%;
   bottom: 11px;
   left: 12px;
+  transform: translateY(-50%);
   transition: fill var(--transition-duration) var(--transition-timing-function);
 }
 
